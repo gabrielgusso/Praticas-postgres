@@ -1,0 +1,1 @@
+SELECT SUM(j.salary) AS maximumSalary, r.name AS role FROM jobs j JOIN roles r ON r.id = j."roleId" GROUP BY r.id ORDER BY maximumSalary;
