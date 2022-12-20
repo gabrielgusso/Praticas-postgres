@@ -1,4 +1,4 @@
-CREATE DATABASE "pratica_modelagem";
+CREATE DATABASE "pratica_modelagem"
 
 CREATE TABLE "users" (
 	"id" SERIAL PRIMARY KEY,
